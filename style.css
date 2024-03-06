@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.div-one, .div-two{
+    background-color: #1F2937;
+    padding: 40px;
+    padding-bottom: 80px;
+}
+
+.header, .div-two, .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header{
+    font-size: 18px;
+}
+
+.header-logo a{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links{
+    align-self: flex-end;
+}
+
+a{
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.header-left{
+    margin-left: 120px;
+}
+
+.header-left div{
+    margin-bottom: 5px;
+}
+
+#hero-main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+#hero-secondary-text, .links a{
+    font-size: 18px;
+    color: #e5e7e5;   
+}
+
+.button-signup{
+    background-color: #3882F6;
+    color: #f9fAf8;
+    width: 110px;
+    height: 32px;
+    text-align: center;
+    border-radius: 5px;
+    border: #3882F6;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.header-right{
+    margin-right: 200px;
+}
+
+#image-div{
+    width: 480px;
+    height: 250px;
+    background-color: #F9FAF8;
+}
+
+.div-three{
+    padding: 40px;
+    margin-bottom: 80px;
+}
+
+#information-header{
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    color: #1F2937;
+}
+
+#information-image-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+#information-image-div > div{
+    width: 170px;
+    margin: 0 50px;
+}
+
+#information-image-div > div > p{
+    padding: 0 3px;
+}
+
+#img-holder{
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#quote-div{
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.div-four p{
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    width: 55%;
+}
+
+#quote-author{
+    text-align: right;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 10px;
+    color: #1F2937;
+}
+
+.div-five{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+#cta-div{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    width: 70%;
+    font-size: 22px;
+    padding: 60px;
+    color: #F9FAF8;
+    border-radius: 15px;
+}
+
+#cta-top{
+    font-weight: bolder;
+}
+
+#cta-div > button{
+    border: 2px solid white;
+}
+
+.footer{
+    color: #f9fAf8;
+    font-size: 18px;
+    background-color: #1F2937;
+    height: 100px;
+    align-items: center;
+}
